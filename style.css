@@ -1,0 +1,84 @@
+.jumbotron {
+            margin: 50px auto; /* Ajustez les marges selon vos besoins */
+            padding: 25px;
+            border-radius: 15px; /* Bords arrondis */
+            overflow: hidden; /* Pour s'assurer que les bords arrondis sont appliqués correctement */
+            align-items: center;
+            
+        }
+
+
+.jumbotron img {
+            width: 30%;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+            display: block;
+            margin: 0 auto; /* Centre l'image à l'intérieur de sa colonne */
+        }
+        
+.navbar {
+ /* Couleur de fond de la barre de navigation */
+ background-color: #f4e5f8;
+ border-color: #E7E7E7;
+ 
+}
+
+.nav-link {
+ color: #696969 ;
+
+}
+.nav-link:hover {
+ color: black;
+}
+
+.navbar-brand {
+    color: #696969 ;
+   }
+
+.navbar-brand:hover{
+    color:black ;
+   }
+
+.buttonCV{
+    background-color: #f4e5f8;
+    border-color: #E7E7E7;
+    color: #696969 ;
+    
+}
+ 
+.cv{
+    align-items: center;
+    padding: 20 auto;}
+
+a{
+    color: #696969 ;
+}
+
+a:hover{
+    color: black;
+}
+.comp{
+    background-color: #f4e5f8;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+.comp:hover{
+    color: #696969;
+}
+
+.titre{
+
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.here{
+    color: black;
+    font-style: bold;
+    text-decoration: underline;
+}
