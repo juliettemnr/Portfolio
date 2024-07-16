@@ -18,8 +18,8 @@
         
 .navbar {
  /* Couleur de fond de la barre de navigation */
- background-color: #f4e5f8;
- border-color: #E7E7E7;
+ background-color: #FDDCC0;
+ border-color: #F1C6A2;
  
 }
 
@@ -40,8 +40,8 @@
    }
 
 .buttonCV{
-    background-color: #f4e5f8;
-    border-color: #E7E7E7;
+    background-color: #FDDCC0;
+    border-color: #F1C6A2;
     color: #696969 ;
     
 }
@@ -58,7 +58,7 @@ a:hover{
     color: black;
 }
 .comp{
-    background-color: #f4e5f8;
+    background-color: #FDDCC0;
     text-decoration: none;
     border-radius: 25px;
     padding: 5px;
