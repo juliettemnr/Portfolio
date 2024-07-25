@@ -15,11 +15,11 @@
             display: block;
             margin: 0 auto; /* Centre l'image à l'intérieur de sa colonne */
         }
-        
+       
 .navbar {
- /* Couleur de fond de la barre de navigation */
- background-color: #FDDCC0;
- border-color: #F1C6A2;
+
+ background-color: #f8f9fa;
+ border-color: #F99C4B;
  
 }
 
@@ -28,7 +28,7 @@
 
 }
 .nav-link:hover {
- color: black;
+ color: #F99C4B;
 }
 
 .navbar-brand {
@@ -36,26 +36,18 @@
    }
 
 .navbar-brand:hover{
-    color:black ;
+    color:#F99C4B ;
    }
 
-.buttonCV{
-    background-color: #FDDCC0;
-    border-color: #F1C6A2;
-    color: #696969 ;
-    
-}
+
  
 .cv{
     align-items: center;
     padding: 20 auto;}
 
-a{
-    color: #696969 ;
-}
 
 a:hover{
-    color: black;
+    color: #F99C4B;
 }
 .comp{
     background-color: #FDDCC0;
@@ -78,7 +70,50 @@ a:hover{
 }
 
 .here{
-    color: black;
+    color: #F99C4B;
     font-style: bold;
-    text-decoration: underline;
+}
+
+a{
+    color: #696969;
+
+}
+
+
+.link{
+    color: #F99C4B;
+    text-decoration: none;
+
+}
+
+.get-started-btn {
+  margin-left: 22px;
+  color: #696969;
+  border-color: #F99C4B;
+  border-radius: 50px;
+  border-width: 0.3cm;
+  padding: 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.btn-outline-success:hover, .btn-outline-success:focus, .btn-outline-success:active, .btn-outline-success.active, .open>.dropdown-toggle.btn-outline-success{
+    color: white;
+    background-color: #F99C4B;
+    border-color: #F99C4B; /*set the color you want here*/
+    
+}
+.btn-outline-success{
+    border-color: #F99C4B;
+     color: #F99C4B;
+}
+
+.img-fluid-small {
+    width: 40%;
+    transition: width 0.3s ease-in-out;
+}
+.img-fluid-large {
+    width: 80%;
 }
