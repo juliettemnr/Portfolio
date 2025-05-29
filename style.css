@@ -117,3 +117,26 @@ a{
 .img-fluid-large {
     width: 80%;
 }
+
+.card-img-top1{
+    width: 60%;
+    padding: 0.6cm;
+    align-items: center;
+}
+.card-img-top2{
+    width: 75%;
+    padding: 0.6cm;
+    align-items: center;
+}
+.card-img-top3{
+    width: 55%;
+    padding: 0.6cm;
+    align-items: center;
+}
+.card{
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    padding: 1cm;
+    height: 300px;
+}

@@ -193,6 +193,49 @@
   </div>
 </div>
 
+<div class="container" id="out">
+  <div class="jumbotron bg-light">
+      <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <img src="Assets/Capture.PNG" alt="1 condition" class="img-fluid" style="width: 100%; align-content: center;margin-top: 1cm;" />  
+
+
+             </div>
+            <div class="col-md-9">
+              <p class="my-3"><b>Etude de l'influence de la couleur et du design sur le stress des citadins</b></p> 
+              <a class="comp">Physiologie</a><a class="comp">Psychologie</a><a class="comp">Stress</a></p>
+
+              <a id="toggle-info-4" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Plus d'informations
+              </a>
+              </div>
+              <div class="collapse" id="collapseExample4">
+                <div class="row">
+                  <div class="col-md-3">
+              <img src="Assets/condition.png" alt="Différentes conditions de l'étude" class="img-fluid" style="width: 100%; align-content: center;margin-top: 1cm;" />  
+                  
+                  </div>
+                  <div class="col-md-9">
+        
+                <hr class="my-3">
+                <p>
+                  Lors de ma dernière année de licence, j'ai pu assister l'enseignante chercheuse Yvonne Delevoye lors de mon Travail d'étude et de recherche
+                  sur l'influence de la couleur et du design sur le stress des citadins. J'ai pu réaliser les passations réalisées en réalité
+                  virtuelle et ai pu analyser les données recueillies. Enfin, j'ai écrit mon mémoire de licence sur ce sujet;
+                </p>
+                <ul>
+                  
+                <p><a href="Assets/TER_Juliette_Meunier.pdf">Mémoire</a> </p>
+               
+                </p>
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+</div>
+
   
 
   
@@ -219,6 +262,11 @@
         });
 
         $('#toggle-info-3').on('click', function() {
+            var isExpanded = $(this).attr('aria-expanded') === 'true';
+            $(this).text(isExpanded ? 'Moins d\'informations' : 'Plus d\'informations'  );
+            $('#app-logo').toggleClass('img-fluid-large', !isExpanded);
+        });
+        $('#toggle-info-4').on('click', function() {
             var isExpanded = $(this).attr('aria-expanded') === 'true';
             $(this).text(isExpanded ? 'Moins d\'informations' : 'Plus d\'informations'  );
             $('#app-logo').toggleClass('img-fluid-large', !isExpanded);
