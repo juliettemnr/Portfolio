@@ -19,8 +19,10 @@
 .navbar {
 
  background-color: #f8f9fa;
- border-color: #F99C4B;
- 
+ border-color: #A855F7;
+
+ border-color: #A855F7;
+
 }
 
 .nav-link {
@@ -28,7 +30,7 @@
 
 }
 .nav-link:hover {
- color: #F99C4B;
+ color: #A855F7;
 }
 
 .navbar-brand {
@@ -36,7 +38,7 @@
    }
 
 .navbar-brand:hover{
-    color:#F99C4B ;
+    color:#A855F7 ;
    }
 
 
@@ -47,10 +49,10 @@
 
 
 a:hover{
-    color: #F99C4B;
+    color: #A855F7;
 }
 .comp{
-    background-color: #FDDCC0;
+    background-color: #FCE7F3;
     text-decoration: none;
     border-radius: 25px;
     padding: 5px;
@@ -70,7 +72,7 @@ a:hover{
 }
 
 .here{
-    color: #F99C4B;
+    color: #A855F7;
     font-style: bold;
 }
 
@@ -81,7 +83,7 @@ a{
 
 
 .link{
-    color: #F99C4B;
+    color: #A855F7;
     text-decoration: none;
 
 }
@@ -89,7 +91,7 @@ a{
 .get-started-btn {
   margin-left: 22px;
   color: #696969;
-  border-color: #F99C4B;
+  border-color: #A855F7;
   border-radius: 50px;
   border-width: 0.3cm;
   padding: 8px 25px;
@@ -101,13 +103,13 @@ a{
 
 .btn-outline-success:hover, .btn-outline-success:focus, .btn-outline-success:active, .btn-outline-success.active, .open>.dropdown-toggle.btn-outline-success{
     color: white;
-    background-color: #F99C4B;
-    border-color: #F99C4B; /*set the color you want here*/
+    background-color: #A855F7;
+    border-color: #A855F7; /*set the color you want here*/
     
 }
 .btn-outline-success{
-    border-color: #F99C4B;
-     color: #F99C4B;
+    border-color: #A855F7;
+     color: #A855F7;
 }
 
 .img-fluid-small {
@@ -139,4 +141,12 @@ a{
     align-items: center; /* Centre verticalement */
     padding: 1cm;
     height: 300px;
+}
+
+#titre_article{
+    color: #A855F7
+}
+
+#titre_article{
+    color: #A855F7
 }
